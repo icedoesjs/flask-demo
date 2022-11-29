@@ -1,0 +1,8 @@
+{% extends 'base.html' %} 
+{% block content %}
+<ul class="list-group list-group-flush" style="padding-top: 30vh">
+    {% for i in range(0, (people) | length) %}
+    <li class="list-group-item bg-light" style="width: 100%;">{{i + 1}}. {{people[i]}}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
