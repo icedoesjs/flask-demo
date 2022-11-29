@@ -1,6 +1,6 @@
 # flask-demo
 As I despise ENV configs i've opted for a YAML which is much better on the eyes. <br>
-The YAML is bound to the <app>.config via the __init__ file.
+The YAML is bound to the Flask app config via the __init__ file.
 
 The whole app uses bootstrap5 for mostly everything.
 
